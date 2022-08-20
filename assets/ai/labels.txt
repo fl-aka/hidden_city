@@ -1,0 +1,6 @@
+0 Nothing
+1 Square
+2 Circle
+3 Triangle
+4 Not Square
+5 Star

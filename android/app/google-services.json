@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "134632309470",
+    "project_id": "ta-fti",
+    "storage_bucket": "ta-fti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134632309470:android:c4d58baa5e9c2724fc784f",
+        "android_client_info": {
+          "package_name": "com.stigmatika.creare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134632309470-rip9cqi5m7qf3kolijo0ge7n0383vat9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnFkxAoCI5HIakPbjYVMjWmyfttjR4oEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134632309470-rip9cqi5m7qf3kolijo0ge7n0383vat9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134632309470:android:ef47f44054a208fdfc784f",
+        "android_client_info": {
+          "package_name": "uniska.fti.ta_fti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134632309470-rip9cqi5m7qf3kolijo0ge7n0383vat9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnFkxAoCI5HIakPbjYVMjWmyfttjR4oEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134632309470-rip9cqi5m7qf3kolijo0ge7n0383vat9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
