@@ -293,7 +293,7 @@ class TouchControlState extends State<TouchControl> {
   }
 
   void _canthandle() async {
-    if (points.length > 900 && !_me) {
+    if (points.length > 900 && !_me && !widget.fillStyle) {
       _me = true;
       coins.add([...points]);
       await _takeMe().whenComplete(() {

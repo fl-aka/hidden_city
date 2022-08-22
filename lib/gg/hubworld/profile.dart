@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ta_uniska_bjm/community.dart/openingpage.dart';
 import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
 import 'package:ta_uniska_bjm/you/profile/profilepage.dart';
 
@@ -82,12 +83,7 @@ class _MyProfileState extends State<MyProfile> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          if (user.displayName != null)
-                            Text(
-                              user.displayName!,
-                              style: const TextStyle(
-                                  fontSize: 16, color: Colors.white),
-                            ),
+                          NameWidget(user: user),
                           if (user.email != null)
                             Text(user.email!,
                                 style: const TextStyle(

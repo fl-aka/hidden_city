@@ -24,6 +24,7 @@ class _PinchZoomState extends State<PinchZoom> {
   Offset _lastTouchPoint = const Offset(0, 0),
       _lastTouchPoint2 = const Offset(50, 0);
   bool _locpos = false, _first = true, _alreadyRun = false, _wait800ms = true;
+  double _horDrag = 0;
 
   void _reset() {
     _less = 0;
@@ -110,6 +111,10 @@ class _PinchZoomState extends State<PinchZoom> {
               _now = 1;
               klaus = 0;
             }
+
+            _horDrag -= details.delta.dx;
+            _horDrag %= 360;
+            if (_horDrag < 0) _horDrag *= -1;
           } else {
             _lastTouchPoint =
                 Offset(details.localPosition.dx, details.localPosition.dy);
@@ -141,7 +146,9 @@ class _PinchZoomState extends State<PinchZoom> {
                   top: _posy,
                   left: _posx,
                   child: Transform.scale(
-                      scale: _now + klaus, child: widget.child)),
+                      scale: _now + klaus,
+                      child: Transform.rotate(
+                          angle: _horDrag / 180 * pi, child: widget.child))),
             ],
           ),
         ),

@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:ta_uniska_bjm/community.dart/openingpage.dart';
 import 'package:ta_uniska_bjm/you/you.dart';
 
 typedef Deletion = void Function(bool x);
@@ -333,7 +334,12 @@ class _CrystalState extends State<Crystal> {
                             ClipPath(
                               clipper: DiamondClipper(),
                               child: GestureDetector(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.of(context).push(PageRouteBuilder(
+                                      opaque: false,
+                                      pageBuilder: (context, animation, _) =>
+                                          const OpeningOfCommunity()));
+                                },
                                 child: Container(
                                   width: 90,
                                   height: 90,
