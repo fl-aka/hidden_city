@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
 import 'package:ta_uniska_bjm/utils/widgets/floatingtext.dart';
 
@@ -174,8 +175,51 @@ class _InventoryContentState extends State<InventoryContent> {
             ),
           ),
         ),
+        Positioned(
+            bottom: 5,
+            left: 0,
+            child: SizedBox(
+                height: 65,
+                width: 250,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    iconCon('History', Icons.calendar_month_rounded),
+                    iconCon('Desire', Icons.check),
+                    iconCon('Trade', FontAwesomeIcons.userGroup)
+                  ],
+                )))
       ],
     );
+  }
+
+  Container iconCon(String text, IconData ico) {
+    return Container(
+        padding: const EdgeInsets.all(5),
+        margin: const EdgeInsets.all(5),
+        width: 55,
+        decoration: BoxDecoration(
+          boxShadow: const [
+            BoxShadow(offset: Offset(2, 2), color: Colors.black26)
+          ],
+          borderRadius: BorderRadius.circular(10),
+          color: Colors.blue,
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              ico,
+              color: Colors.white,
+              size: 20,
+            ),
+            const SizedBox(height: 5),
+            Text(
+              text,
+              style: const TextStyle(color: Colors.white),
+            )
+          ],
+        ));
   }
 }
 

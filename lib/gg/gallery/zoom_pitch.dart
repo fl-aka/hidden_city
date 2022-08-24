@@ -22,6 +22,7 @@ class _PinchZoomState extends State<PinchZoom> {
   double _posx = 0, _posy = 0, _hposx = 0, _hposy = 0, _less = 0;
   double klaus = 0, _now = 1;
   Offset _lastTouchPoint = const Offset(0, 0),
+      _lastTouchPointOld = const Offset(0, 0),
       _lastTouchPoint2 = const Offset(50, 0);
   bool _locpos = false, _first = true, _alreadyRun = false, _wait800ms = true;
   double _horDrag = 0;
@@ -86,6 +87,7 @@ class _PinchZoomState extends State<PinchZoom> {
             if (_first) {
               _first = false;
               _less = sqrt(alas * alas + tinggi * tinggi) / 250;
+              _lastTouchPointOld = _lastTouchPoint;
             }
             klaus = sqrt(alas * alas + tinggi * tinggi) / 250;
             klaus = klaus - _less;
@@ -112,9 +114,16 @@ class _PinchZoomState extends State<PinchZoom> {
               klaus = 0;
             }
 
-            _horDrag -= details.delta.dx;
-            _horDrag %= 360;
-            if (_horDrag < 0) _horDrag *= -1;
+            if (_lastTouchPointOld == _lastTouchPoint) {
+              if (_lastTouchPoint.dy < _lastTouchPoint2.dy) {
+                _horDrag -= details.delta.dx;
+              } else {
+                _horDrag += details.delta.dx;
+              }
+              _horDrag %= 360;
+              if (_horDrag < 0) _horDrag *= -1;
+            }
+            _lastTouchPointOld = _lastTouchPoint;
           } else {
             _lastTouchPoint =
                 Offset(details.localPosition.dx, details.localPosition.dy);
