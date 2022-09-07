@@ -34,7 +34,6 @@ class _StaticCardState extends State<StaticCard> {
       durable.add(LineChartBarData(
           spots: great,
           isCurved: true,
-          dotData: FlDotData(show: false),
           barWidth: 5,
           belowBarData: BarAreaData(
               show: true,
