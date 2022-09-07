@@ -3,6 +3,7 @@ import 'package:path_provider/path_provider.dart' as path;
 import 'honeys/link.dart';
 import 'honeys/reminder.dart';
 import 'honeys/urlpath.dart';
+import 'honeys/card.dart';
 
 Future<void> regisTnAdpt() async {
   var appDoc = await path.getApplicationDocumentsDirectory();
@@ -11,4 +12,5 @@ Future<void> regisTnAdpt() async {
   Hive.registerAdapter(UrlPathAdapter());
   Hive.registerAdapter(LinkAdapter());
   Hive.registerAdapter(PiecesAdapter());
+  Hive.registerAdapter(CardsAdapter());
 }

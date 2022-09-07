@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hive/hive.dart';
 import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
@@ -54,6 +55,7 @@ class _YouState extends State<You> {
                   onTap: () {
                     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
                     Navigator.of(context).pop();
+                    Hive.close();
                   },
                   child: ClipPath(
                     clipper: DiamondClipper(),
@@ -112,6 +114,11 @@ class YouContent extends StatefulWidget {
 
 class _YouContentState extends State<YouContent> {
   bool _toBe = true;
+
+  Future<void> openBoxes() async {
+    await Hive.openBox('MoneyCards');
+    await Hive.openBox('MoneyHistory');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -200,15 +207,18 @@ class _YouContentState extends State<YouContent> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 GestureDetector(
-                                  onPanStart: (dtl) {
+                                  onPanStart: (dtl) async {
+                                    var goAround = Navigator.of(context);
                                     SystemChrome.setEnabledSystemUIMode(
                                         SystemUiMode.immersive);
+                                    await openBoxes();
+
                                     double dx = dtl.globalPosition.dx / width;
                                     double dy = dtl.globalPosition.dy / height;
                                     _toBe = false;
                                     FractionalOffset center =
                                         FractionalOffset(dx, dy);
-                                    Navigator.of(context)
+                                    goAround
                                         .push(PageRouteBuilder(
                                             opaque: false,
                                             pageBuilder:

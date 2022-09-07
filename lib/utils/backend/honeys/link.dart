@@ -10,3 +10,5 @@ class Link {
   Uint8List? bitImg;
   Link(this.route, {this.bitImg});
 }
+
+//flutter packages pub run build_runner build

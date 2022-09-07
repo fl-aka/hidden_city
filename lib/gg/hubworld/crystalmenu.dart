@@ -81,6 +81,7 @@ class _CrystalState extends State<Crystal> {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
+
     if (_close) {
       Timer(const Duration(milliseconds: 320), () {
         setState(() {
