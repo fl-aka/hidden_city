@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/link.dart';
+import 'package:hidden_city/utils/backend/honeys/link.dart';
 
 class ListFromLink extends StatefulWidget {
   const ListFromLink({super.key, this.current, required this.changeOld});

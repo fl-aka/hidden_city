@@ -9,11 +9,11 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hive/hive.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/card.dart';
-import 'package:ta_uniska_bjm/utils/widgets/floatingtext.dart';
-import 'package:ta_uniska_bjm/you/addcard.dart';
-import 'package:ta_uniska_bjm/you/tools/staticcard.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/utils/backend/honeys/card.dart';
+import 'package:hidden_city/utils/widgets/floatingtext.dart';
+import 'package:hidden_city/you/addcard.dart';
+import 'package:hidden_city/you/tools/staticcard.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../gg/draw/preview.dart';
@@ -69,8 +69,8 @@ class _InventoryState extends State<Inventory> {
                     child: Container(
                         padding: const EdgeInsets.all(20),
                         color: const Color.fromARGB(255, 194, 46, 46),
-                        height: 180,
-                        width: 180,
+                        height: MediaQuery.of(context).size.width / 1.8,
+                        width: MediaQuery.of(context).size.width / 1.8,
                         child: Stack(
                           children: [
                             Padding(
@@ -125,7 +125,7 @@ class _InventoryContentState extends State<InventoryContent> {
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
     final double height = MediaQuery.of(context).size.height;
-    debugPrint('$height');
+    debugPrint('$width');
     return Stack(
       children: [
         GestureDetector(
@@ -438,10 +438,12 @@ class _TuningWizardState extends State<TuningWizard>
                                 pretext: curName,
                               ) ??
                               curName;
-                          tempBox.putAt(
-                              q,
-                              Cards(newName, curLogo, curSaldo, curBoolPay,
-                                  curPay, curPayMax, curWeb, oldTime));
+                          Cards save = Cards(newName, curLogo, curSaldo,
+                              curBoolPay, curPay, curPayMax, curWeb, oldTime);
+                          tempBox.putAt(q, save);
+                          meta.removeLast();
+                          meta.add(save);
+                          tempHis.putAt(q, meta);
                           SystemChrome.setEnabledSystemUIMode(
                               SystemUiMode.immersive);
                         } catch (e) {

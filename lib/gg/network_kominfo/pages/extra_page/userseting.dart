@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/spcbutton.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/spcbutton.dart';
 
 class UserSetting extends StatefulWidget {
   final Users user;

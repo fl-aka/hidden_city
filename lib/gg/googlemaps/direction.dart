@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ta_uniska_bjm/utils/plainVar/api_keys.dart';
+import 'package:hidden_city/utils/plainVar/api_keys.dart';
 import 'directions.dart';
 
 class DirectionRes {

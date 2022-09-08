@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/urlpath.dart';
-import 'package:ta_uniska_bjm/gg/gallery/gallery.dart';
-import 'package:ta_uniska_bjm/http/videopage_files/editdialog.dart';
-import 'package:ta_uniska_bjm/http/webview.dart';
-import 'package:ta_uniska_bjm/http/videopage_files/fullscreenmode.dart';
-import 'package:ta_uniska_bjm/utils/widgets/scroll_parent.dart';
+import 'package:hidden_city/utils/backend/honeys/urlpath.dart';
+import 'package:hidden_city/gg/gallery/gallery.dart';
+import 'package:hidden_city/http/videopage_files/editdialog.dart';
+import 'package:hidden_city/http/webview.dart';
+import 'package:hidden_city/http/videopage_files/fullscreenmode.dart';
+import 'package:hidden_city/utils/widgets/scroll_parent.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoNet extends StatefulWidget {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/draw/e_rayv2.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/petpages/petpage.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/main_action.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/logingear.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/bckground.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/draw/e_rayv2.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/petpages/petpage.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/main_action.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/logingear.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/bckground.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
 
 class LoginPage extends StatefulWidget {
   final String iP;

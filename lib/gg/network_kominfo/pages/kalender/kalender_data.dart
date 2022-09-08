@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/toindo.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/toindo.dart';
 
 class KalenderList extends StatefulWidget {
   final List<dynamic>? list;

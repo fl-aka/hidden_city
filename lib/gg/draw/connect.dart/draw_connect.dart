@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/draw/connect.dart/touch_connect.dart';
-import 'package:ta_uniska_bjm/utils/widgets/anirotbu.dart';
+import 'package:hidden_city/gg/draw/connect.dart/touch_connect.dart';
+import 'package:hidden_city/utils/widgets/anirotbu.dart';
 
 class DrawConnect extends StatefulWidget {
   final String ipIs;

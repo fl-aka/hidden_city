@@ -1,9 +1,9 @@
 import 'dart:math';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/community.dart/openingpage.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
-import 'package:ta_uniska_bjm/you/profile/profilepage.dart';
+import 'package:hidden_city/community.dart/openingpage.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/you/profile/profilepage.dart';
 
 class MyProfile extends StatefulWidget {
   const MyProfile({super.key, required this.forced});

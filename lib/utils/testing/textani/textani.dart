@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:math';
 
-import 'package:ta_uniska_bjm/utils/plainVar/shadows.dart';
+import 'package:hidden_city/utils/plainVar/shadows.dart';
 
 class TextAni extends StatefulWidget {
   const TextAni({super.key});
@@ -309,14 +309,14 @@ class _ContentState extends State<Content> {
                                                   decoration: BoxDecoration(
                                                       border: Border.all()),
                                                   child: Text(
-                                                      "https://textani-7f4f0.firebaseapp.com/#/msg/$docName"),
+                                                      "https://ta-fti.web.app/#/msg/$docName"),
                                                 ),
                                                 ElevatedButton(
                                                     onPressed: () {
                                                       Clipboard.setData(
                                                           ClipboardData(
                                                               text:
-                                                                  "https://textani-7f4f0.firebaseapp.com/#/msg/$docName"));
+                                                                  "https://ta-fti.web.app/#/msg/$docName"));
                                                     },
                                                     child: const Text("Copy"))
                                               ],

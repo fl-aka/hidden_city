@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/dataset.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/toindo.dart';
+import 'package:hidden_city/gg/network_kominfo/model/dataset.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/toindo.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
-import 'package:ta_uniska_bjm/gg/network_kominfo/dpdf/pdf_api.dart';
+import 'package:hidden_city/gg/network_kominfo/dpdf/pdf_api.dart';
 
 class PdfInvoiceApi {
   //************************************************GENERATE TICKET***************************************************//

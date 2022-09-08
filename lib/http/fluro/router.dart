@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/random/login.dart';
-import 'package:ta_uniska_bjm/utils/testing/textani/receive.dart';
+import 'package:hidden_city/gg/random/login.dart';
+import 'package:hidden_city/utils/testing/textani/receive.dart';
 
 class Routes {
   static void configureRoutes(FluroRouter router) {

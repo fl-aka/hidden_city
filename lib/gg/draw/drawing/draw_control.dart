@@ -12,17 +12,17 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:ta_uniska_bjm/gg/draw/drawing/aimer.dart';
-import 'package:ta_uniska_bjm/gg/draw/drawing/future_link_list.dart';
-import 'package:ta_uniska_bjm/gg/draw/drawing/rotating.dart';
-import 'package:ta_uniska_bjm/gg/draw/drawing/theoldpic.dart';
-import 'package:ta_uniska_bjm/utils/testing/cube/cube.dart';
+import 'package:hidden_city/gg/draw/drawing/aimer.dart';
+import 'package:hidden_city/gg/draw/drawing/future_link_list.dart';
+import 'package:hidden_city/gg/draw/drawing/rotating.dart';
+import 'package:hidden_city/gg/draw/drawing/theoldpic.dart';
+import 'package:hidden_city/utils/testing/cube/cube.dart';
 import 'package:tflite/tflite.dart';
 
-import 'package:ta_uniska_bjm/gg/draw/preview.dart';
-import 'package:ta_uniska_bjm/gg/gallery/zoom_pitch.dart';
-import 'package:ta_uniska_bjm/utils/widgets/anirotbu.dart';
-import 'package:ta_uniska_bjm/utils/widgets/colorpicker.dart';
+import 'package:hidden_city/gg/draw/preview.dart';
+import 'package:hidden_city/gg/gallery/zoom_pitch.dart';
+import 'package:hidden_city/utils/widgets/anirotbu.dart';
+import 'package:hidden_city/utils/widgets/colorpicker.dart';
 
 import 'cameracame.dart';
 import 'touch_control.dart';

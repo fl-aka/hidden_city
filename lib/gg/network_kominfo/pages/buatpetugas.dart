@@ -7,9 +7,9 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/utils/widgets/scroll_parent.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/spcbutton.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/utils/widgets/scroll_parent.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/spcbutton.dart';
 
 class InPetugas extends StatefulWidget {
   final String ip;

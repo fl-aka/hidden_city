@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/random/myhomepage.dart';
+import 'package:hidden_city/gg/random/myhomepage.dart';
 
 typedef Pop = void Function(bool x);
 

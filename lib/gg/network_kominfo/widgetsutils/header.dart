@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
 
 typedef UserMenuFunc = void Function(String action);
 

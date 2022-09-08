@@ -3,8 +3,8 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/community.dart/openingpage.dart';
-import 'package:ta_uniska_bjm/you/you.dart';
+import 'package:hidden_city/community.dart/openingpage.dart';
+import 'package:hidden_city/you/you.dart';
 
 typedef Deletion = void Function(bool x);
 

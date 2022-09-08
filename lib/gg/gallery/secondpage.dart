@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/link.dart';
-import 'package:ta_uniska_bjm/gg/draw/preview.dart';
-import 'package:ta_uniska_bjm/gg/gallery/zoom_pitch.dart';
+import 'package:hidden_city/utils/backend/honeys/link.dart';
+import 'package:hidden_city/gg/draw/preview.dart';
+import 'package:hidden_city/gg/gallery/zoom_pitch.dart';
 
 class SecondPage extends StatefulWidget {
   final List<Link> imagine;

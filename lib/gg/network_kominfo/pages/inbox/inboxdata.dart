@@ -5,10 +5,10 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/historydata.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/petugas.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/spcbutton.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/historydata.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/petugas.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/spcbutton.dart';
 
 class InboxList extends StatefulWidget {
   final List<dynamic>? list;

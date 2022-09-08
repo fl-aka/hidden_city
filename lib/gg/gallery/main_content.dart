@@ -3,8 +3,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/gg/gallery/secondpage.dart';
-import 'package:ta_uniska_bjm/utils/testing/swipedeck/swipe_deck.dart';
+import 'package:hidden_city/gg/gallery/secondpage.dart';
+import 'package:hidden_city/utils/testing/swipedeck/swipe_deck.dart';
 
 import '../../utils/backend/honeys/link.dart';
 

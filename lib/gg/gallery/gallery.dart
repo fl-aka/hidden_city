@@ -4,9 +4,9 @@ import 'package:http/http.dart' as http;
 
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/gg/draw/preview.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/link.dart';
-import 'package:ta_uniska_bjm/gg/gallery/main_content.dart';
+import 'package:hidden_city/gg/draw/preview.dart';
+import 'package:hidden_city/utils/backend/honeys/link.dart';
+import 'package:hidden_city/gg/gallery/main_content.dart';
 
 class GaleriPage extends StatefulWidget {
   const GaleriPage({super.key, this.delInd = 0, this.delete = false});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/chessnt/pieces.dart';
+import 'package:hidden_city/gg/chessnt/pieces.dart';
 
 class Chessnt extends StatefulWidget {
   const Chessnt({super.key});

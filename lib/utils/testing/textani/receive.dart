@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/utils/testing/textani/textani.dart';
+import 'package:hidden_city/utils/testing/textani/textani.dart';
 import 'dart:math';
-
-import 'package:ta_uniska_bjm/utils/widgets/sprrringbuttonmdf.dart';
+import 'package:hidden_city/utils/widgets/sprrringbuttonmdf.dart';
 
 class Receive extends StatefulWidget {
   final String memo;

@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/gg/chessnt/chessnt.dart';
-import 'package:ta_uniska_bjm/gg/gallery/gallery.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/profile.dart';
-import 'package:ta_uniska_bjm/gg/random/login.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/wheel_of_fate.dart';
-import 'package:ta_uniska_bjm/utils/testing/textani/textani.dart';
-import 'package:ta_uniska_bjm/utils/testing/textbot/textmain.dart';
-import 'package:ta_uniska_bjm/utils/lockandload.dart';
+import 'package:hidden_city/gg/chessnt/chessnt.dart';
+import 'package:hidden_city/gg/gallery/gallery.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/gg/hubworld/profile.dart';
+import 'package:hidden_city/gg/random/login.dart';
+import 'package:hidden_city/gg/hubworld/wheel_of_fate.dart';
+import 'package:hidden_city/utils/testing/textani/textani.dart';
+import 'package:hidden_city/utils/testing/chatp/textmain.dart';
+import 'package:hidden_city/utils/lockandload.dart';
 
 import '../draw/drawing/draw_control.dart';
 

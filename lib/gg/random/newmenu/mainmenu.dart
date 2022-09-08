@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/random/download.dart';
-import 'package:ta_uniska_bjm/gg/random/myhomepage.dart';
-import 'package:ta_uniska_bjm/utils/plainVar/text.dart';
+import 'package:hidden_city/gg/random/download.dart';
+import 'package:hidden_city/gg/random/myhomepage.dart';
+import 'package:hidden_city/utils/plainVar/text.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MainMenu extends StatefulWidget {

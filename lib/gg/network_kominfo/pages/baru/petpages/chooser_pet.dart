@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/inmainaction.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/petpages/inbox.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/petpages/progress.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/extra_page/waiting.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/inmainaction.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/petpages/inbox.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/petpages/progress.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/extra_page/waiting.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
 
 typedef ChangePage = void Function(int i);
 

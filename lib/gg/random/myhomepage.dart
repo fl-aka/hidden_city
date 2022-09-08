@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/dataprofile.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/diterima.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/ketaktif.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/mainmenu.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/pembimbingpkl.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/pembimbingskripsi.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/seminarpkl.dart';
-import 'package:ta_uniska_bjm/gg/random/newmenu/srtokl.dart';
-import 'package:ta_uniska_bjm/gg/random/sidebar.dart';
+import 'package:hidden_city/gg/random/newmenu/dataprofile.dart';
+import 'package:hidden_city/gg/random/newmenu/diterima.dart';
+import 'package:hidden_city/gg/random/newmenu/ketaktif.dart';
+import 'package:hidden_city/gg/random/newmenu/mainmenu.dart';
+import 'package:hidden_city/gg/random/newmenu/pembimbingpkl.dart';
+import 'package:hidden_city/gg/random/newmenu/pembimbingskripsi.dart';
+import 'package:hidden_city/gg/random/newmenu/seminarpkl.dart';
+import 'package:hidden_city/gg/random/newmenu/srtokl.dart';
+import 'package:hidden_city/gg/random/sidebar.dart';
 
 class MyBehavior extends ScrollBehavior {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/random/myhomepage.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/hubworld.dart';
+import 'package:hidden_city/gg/random/myhomepage.dart';
+import 'package:hidden_city/gg/hubworld/hubworld.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

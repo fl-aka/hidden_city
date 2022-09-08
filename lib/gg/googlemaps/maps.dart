@@ -5,7 +5,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'direction.dart';
 import 'directions.dart';
-import 'package:ta_uniska_bjm/utils/plainVar/text.dart';
+import 'package:hidden_city/utils/plainVar/text.dart';
 
 class MainMap extends StatefulWidget {
   const MainMap({Key? key}) : super(key: key);

@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:ta_uniska_bjm/you/inventory.dart';
+import 'package:hidden_city/you/inventory.dart';
 import 'package:wave/config.dart';
 import 'package:wave/wave.dart';
 

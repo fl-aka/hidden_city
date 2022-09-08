@@ -3,13 +3,13 @@ import 'dart:math';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/gg/draw/connect.dart/draw_connect.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/newaction.dart';
-import 'package:ta_uniska_bjm/http/fetching.dart';
-import 'package:ta_uniska_bjm/http/videopage_files/video.dart';
+import 'package:hidden_city/gg/draw/connect.dart/draw_connect.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/newaction.dart';
+import 'package:hidden_city/http/fetching.dart';
+import 'package:hidden_city/http/videopage_files/video.dart';
 import 'dart:ui' as ui;
 
-import 'package:ta_uniska_bjm/utils/widgets/anirotbu.dart';
+import 'package:hidden_city/utils/widgets/anirotbu.dart';
 
 typedef Tame = void Function();
 typedef Pop = void Function(bool x);

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/kalender/kalender_data.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/utils/widgets/scroll_parent.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/kalender/kalender_data.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/utils/widgets/scroll_parent.dart';
 
 class Kalender extends StatefulWidget {
   final String ipIs;

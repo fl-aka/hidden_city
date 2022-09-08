@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hidden_city/utils/testing/chatp/codeglass.dart';
 
 class TextBot extends StatefulWidget {
   const TextBot({super.key});
@@ -10,6 +11,9 @@ class TextBot extends StatefulWidget {
 class _TextBotState extends State<TextBot> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      color: Colors.red,
+      child: const GlassMaji(size: 30),
+    );
   }
 }

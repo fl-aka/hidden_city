@@ -3,14 +3,14 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/extra_page/userseting.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/inmainaction.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/login_page.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/bckground.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/chooser.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/header.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/extra_page/userseting.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/inmainaction.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/login_page.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/bckground.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/chooser.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/header.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
 
 class MainAction extends StatefulWidget {
   final String aiPhi;

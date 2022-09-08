@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/http/fetching.dart';
+import 'package:hidden_city/http/fetching.dart';
 
 typedef Reset = void Function(bool x);
 

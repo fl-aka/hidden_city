@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:ui';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({

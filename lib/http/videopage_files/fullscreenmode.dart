@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/http/videopage_files/video.dart';
+import 'package:hidden_city/http/videopage_files/video.dart';
 import 'package:video_player/video_player.dart';
 
 class FullscreenWidget extends StatefulWidget {

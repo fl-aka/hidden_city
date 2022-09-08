@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
-import 'package:ta_uniska_bjm/gg/login/bigpedal.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/gg/login/bigpedal.dart';
 
 typedef Fate = void Function(int x);
 typedef Deletion = void Function(bool x);

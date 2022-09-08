@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/hubworld.dart';
-import 'package:ta_uniska_bjm/gg/login/login_page.dart';
-import 'package:ta_uniska_bjm/utils/widgets/floatingtext.dart';
+import 'package:hidden_city/gg/hubworld/hubworld.dart';
+import 'package:hidden_city/gg/login/login_page.dart';
+import 'package:hidden_city/utils/widgets/floatingtext.dart';
 
 class Wrapper extends StatelessWidget {
   const Wrapper({super.key});

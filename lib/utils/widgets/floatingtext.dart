@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/utils/plainVar/shadows.dart';
+import 'package:hidden_city/utils/plainVar/shadows.dart';
 
 class FloatingText extends StatefulWidget {
   final String subText;

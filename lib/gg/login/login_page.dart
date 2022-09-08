@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/login/bigpedal.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/http/fb/google_sign_in.dart';
-import 'package:ta_uniska_bjm/main.dart';
-import 'package:ta_uniska_bjm/utils/widgets/floatingtext.dart';
-import 'package:ta_uniska_bjm/utils/widgets/glass.dart';
+import 'package:hidden_city/gg/login/bigpedal.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/http/fb/google_sign_in.dart';
+import 'package:hidden_city/main.dart';
+import 'package:hidden_city/utils/widgets/floatingtext.dart';
+import 'package:hidden_city/utils/widgets/glass.dart';
 import 'package:flutter/services.dart';
 
 class LoginMain extends StatefulWidget {

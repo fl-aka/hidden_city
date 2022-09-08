@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:dbcrypt/dbcrypt.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
 
 typedef Huma = void Function(Users droid);
 typedef Func = void Function(String iPad);

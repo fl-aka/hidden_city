@@ -2,8 +2,8 @@
 
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/model/users.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/model/users.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
 import 'package:http/http.dart' as http;
 
 class InsideGanEdit extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/urlpath.dart';
+import 'package:hidden_city/utils/backend/honeys/urlpath.dart';
 
 class EditBox extends StatelessWidget {
   const EditBox(

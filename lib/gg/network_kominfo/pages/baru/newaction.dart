@@ -4,12 +4,12 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/new_baru.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/baru/new_layanan.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/logingear.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/pages/login_page.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/bckground.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/new_baru.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/baru/new_layanan.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/logingear.dart';
+import 'package:hidden_city/gg/network_kominfo/pages/login_page.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/bckground.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
 
 class NewAct extends StatefulWidget {
   const NewAct({Key? key}) : super(key: key);

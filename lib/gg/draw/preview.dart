@@ -7,8 +7,8 @@ import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/link.dart';
-import 'package:ta_uniska_bjm/utils/widgets/wild_boxes.dart';
+import 'package:hidden_city/utils/backend/honeys/link.dart';
+import 'package:hidden_city/utils/widgets/wild_boxes.dart';
 
 class PreviewImg extends StatefulWidget {
   const PreviewImg({super.key, required this.img});

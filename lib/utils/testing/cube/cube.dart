@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/reminder.dart';
+import 'package:hidden_city/utils/backend/honeys/reminder.dart';
 
 class RubicExe extends StatefulWidget {
   const RubicExe({Key? key}) : super(key: key);

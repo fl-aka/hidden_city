@@ -3,9 +3,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/inmainaction.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/spcbutton.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/inmainaction.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/spcbutton.dart';
 
 class ItemList extends StatefulWidget {
   final String jenis;

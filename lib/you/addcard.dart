@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hive/hive.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/spcbutton.dart';
-import 'package:ta_uniska_bjm/utils/backend/honeys/card.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/spcbutton.dart';
+import 'package:hidden_city/utils/backend/honeys/card.dart';
 
 class AddMoreCandy extends StatefulWidget {
   const AddMoreCandy({super.key});

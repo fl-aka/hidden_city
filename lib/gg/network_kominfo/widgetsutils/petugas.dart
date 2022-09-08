@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/mysql/allforpetugas.dart';
-import 'package:ta_uniska_bjm/gg/network_kominfo/widgetsutils/robot.dart';
+import 'package:hidden_city/gg/network_kominfo/mysql/allforpetugas.dart';
+import 'package:hidden_city/gg/network_kominfo/widgetsutils/robot.dart';
 
 typedef TakePetugas = void Function(String a);
 

@@ -1,8 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
-
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
 import 'linetittle.dart';
 
 class StaticCard extends StatefulWidget {
@@ -23,6 +22,9 @@ class _StaticCardState extends State<StaticCard> {
     }
     double up = _setUperBound(s);
     List<LineChartBarData> durable = [];
+    s.sort(
+      (a, b) => a.length.compareTo(b.length),
+    );
     for (int i = 0; i < s.length; i++) {
       List<dynamic> examine = s[i];
       List<FlSpot> great = [];
@@ -57,7 +59,8 @@ class _StaticCardState extends State<StaticCard> {
               List<LineTooltipItem> x = [];
               touchedSpots.sort(((a, b) => a.barIndex.compareTo(b.barIndex)));
               for (int i = 0; i < touchedSpots.length; i++) {
-                x.add(LineTooltipItem('${(touchedSpots[i].y * up / 5).round()}',
+                x.add(LineTooltipItem(
+                    '${s[i].last.name} : ${(touchedSpots[i].y * up / 5).round()}',
                     TextStyle(color: set1[i % 7])));
               }
               return x;

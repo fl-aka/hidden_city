@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
-import 'package:ta_uniska_bjm/utils/plainVar/networking.dart' as url;
+import 'package:hidden_city/utils/plainVar/networking.dart' as url;
 
 class XRays extends StatefulWidget {
   const XRays({Key? key}) : super(key: key);

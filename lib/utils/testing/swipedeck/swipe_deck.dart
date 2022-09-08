@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ta_uniska_bjm/utils/testing/swipedeck/data_holder.dart';
+import 'package:hidden_city/utils/testing/swipedeck/data_holder.dart';
 
 class SwipeDeck extends StatefulWidget {
   final List<Widget> widgets;

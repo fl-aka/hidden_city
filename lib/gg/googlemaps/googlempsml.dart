@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ta_uniska_bjm/utils/plainVar/text.dart';
+import 'package:hidden_city/utils/plainVar/text.dart';
 
 class SmlMap extends StatefulWidget {
   const SmlMap({Key? key}) : super(key: key);

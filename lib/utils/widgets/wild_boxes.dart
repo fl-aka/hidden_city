@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:ta_uniska_bjm/gg/hubworld/crystalmenu.dart';
+import 'package:hidden_city/gg/hubworld/crystalmenu.dart';
 
 class WildBoxes extends StatefulWidget {
   const WildBoxes({super.key, required this.height, required this.width});
